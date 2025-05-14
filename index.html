@@ -1,11 +1,184 @@
-<!DOCTYPE html>
-<html lang="en">
+git clone htt<!DOCTYPE html>
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil Instagram & Portofolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fafafa;
+      color: #262626;
+    }
+
+    .profile-container {
+      max-width: 935px;
+      margin: 50px auto;
+      display: flex;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    .profile-pic {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .profile-pic img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .profile-info {
+      flex: 2;
+      padding-left: 30px;
+    }
+
+    .profile-info h2 {
+      margin: 0;
+      font-size: 28px;
+      display: inline-block;
+    }
+
+    .btn {
+      border: 1px solid #dbdbdb;
+      padding: 5px 10px;
+      margin-left: 15px;
+      background-color: #fff;
+      cursor: pointer;
+    }
+
+    .stats {
+      margin: 20px 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    .stats div {
+      font-weight: bold;
+    }
+
+    .bio {
+      line-height: 1.4;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5px;
+      margin: 30px auto;
+      max-width: 935px;
+    }
+
+    .gallery img {
+      width: 100%;
+      display: block;
+    }
+
+    a {
+      color: #00376b;
+      text-decoration: none;
+    }
+
+    .portfolio-section {
+      max-width: 935px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    .portfolio-section h3 {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f0f0f0;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
-    <h1>test</h1>
+
+  <div class="profile-container">
+    <div class="profile-pic">
+      <img src="https://picsum.photos/id/237/150/150" alt="Foto Profil" />
+    </div>
+    <div class="profile-info"; style=gap:15px ;>
+      <div style="display: flex; align-items: center;">
+        <h2>apriantoop    </h2>
+
+        <button class="btn" style=border-radius:8px; >Edit Profil</button>
+        <button class="btn"style=border-radius:8px;>View Archive</button>
+      </div>
+      <div class="stats">
+        <div>30 <span>Postingan</span></div>
+        <div>500 <span>Pengikut</span></div>
+        <div>180 <span>Mengikuti</span></div>
+      </div>
+      <div class="bio">
+        <strong>Aprianto Pangestu</strong><br>
+        Web Developer | UI/UX Designer<br>
+        📍 Jakarta, Indonesia<br>
+        🌐 <a href="https://example.com" target="_blank">example.com</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <img src="https://picsum.photos/id/1015/300/300" alt="Post 1" />
+    <img src="https://picsum.photos/id/1016/300/300" alt="Post 2" />
+    <img src="https://picsum.photos/id/1018/300/300" alt="Post 3" />
+  </div>
+
+  <div class="portfolio-section">
+    <h3>🧑‍💼 Tentang Saya</h3>
+    <p>Saya adalah pengembang web yang berfokus pada desain antarmuka pengguna yang menarik dan pengalaman pengguna yang optimal. Saya suka membangun website modern dengan performa yang baik.</p>
+  </div>
+
+  <div class="portfolio-section">
+    <h3>💼 Pengalaman</h3>
+    <ul>
+      <li><strong>Freelance Web Developer</strong> (2022 - sekarang)</li>
+      <li><strong>UI/UX Designer - StartupTech</strong> (2021 - 2022)</li>
+    </ul>
+  </div>
+
+  <div class="portfolio-section">
+    <h3>🛠️ Keahlian</h3>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React, Bootstrap, Tailwind</li>
+      <li>Figma, Adobe XD</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </div>
+
+  <div class="portfolio-section">
+    <h3>📞 Kontak</h3>
+    <p>Email: saya@example.com</p>
+    <p>LinkedIn: <a href="#" target="_blank">linkedin.com/in/saya</a></p>
+    <p>Instagram: <a href="#">@namapengguna</a></p>
+  </div>
+
+  <footer>
+    &copy; 2025 Nama Lengkap | Dibuat dengan HTML & CSS
+  </footer>
+
 </body>
 </html>
